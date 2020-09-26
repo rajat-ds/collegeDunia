@@ -1,38 +1,488 @@
-.App {
+.Colleges-in-North-India {
+  width: 180px;
+  height: 18px;
+  font-family: DINPro;
+  margin-top: 49px;
+  margin-left: 54px;
+  font-size: 18.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+}
+
+.Layer-10 {
+  width: 600.3px;
+  height: 233.2px;
+ 
+  display:inline-block;
+ 
+  background-image: url(college_02.jpg);
+  
+
+}
+.outer-Div {
+  margin-top: 65px;
+  border-radius: 5px 5px 5px; 
+ 
+}
+
+.inner-Div{
+  margin-left: 51.8px;
+  background-color: aqua;
+  height: 377px;
+  display:inline-block;
+}
+
+.Hansraj-College-Delhi-University {
+  width: 260px;
+  height: 17px;
+  font-family: DINPro;
+  font-size: 18.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
   text-align: center;
+  color: var(--greyish-brown);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 610px;
+  padding: 10px;
+  height: 377px; /* Should be removed. Only for demonstration */
+  background-color: white;
+  margin-left: 51px;
+  margin-top: 65px;
+  background-image: url(college_02.jpg);
+  background-size: 100% 233.33px;
+    background-repeat: no-repeat;
+    border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px var(--greyish-brown);
+  background-color: #ffffff;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+* {
+  padding: 0;
+  /* Standard Reset, and we're adding box-sizing:border-box because it's awesome. */
+  
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-transition: all 0s ease-in-out;
+  -moz-transition: all 0s ease-in-out;
+  -o-transition: all 0s ease-in-out;
+  transition: all 0s ease-in-out;
+}
+
+.content-box {
+  width: 152px;
+  height: 200px;
+  max-width:80%;
+  margin: 94px auto 0 auto;
+  position: relative;
+  /* So we can position the banner within the box */
+  margin-left: 426px;
+  margin-top: -45px;
+ 
+}
+
+#ribbon-container {
+  position: absolute;
+  top: 15px;
+  right: -20px;
+  overflow: visible;
+  /* so we can see the pseudo-elements we're going to add to the anchor */
+  
+  font-size: 18px;
+  /* font-size and line-height must be equal so we can account for the height of the banner */
+  
+  line-height: 18px;
+}
+
+#ribbon-container:before {
+  content: "";
+  height: 0;
+  width: 0;
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  border-top: 19px solid rgba(0, 0, 0, .3);
+  /* These 4 border properties create the first part of our drop-shadow */
+  
+  border-bottom: 20px solid rgba(0, 0, 0, .3);
+  border-right: 29px solid rgba(0, 0, 0, .3);
+  border-left: 29px solid transparent;
+}
+
+
+
+#ribbon-container p {
+  display: block;
+  padding: 20px;
+  position: relative;
+  /* allows us to position our pseudo-elements properly */
+  
+  background: skyblue;
+  overflow: visible;
+  height: 42px;
+  margin-left: 29px;
+  color: #fff;
+  text-decoration: none;
+  
+     padding-top: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500
+
+
+}
+
+
+#ribbon-container p:before {
+  /* this creates the "forked" part of our ribbon */
+  
+  content: "";
+  height: 0;
+  width: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -29px;
+  border-top: 19px solid skyblue;
+  border-bottom: 20px solid skyblue;
+  border-right: 29px solid transparent;
+  border-left: 29px solid transparent;
+  
+
+
+}
+
+.Rectangle-3 {
+  width: 75px;
+  height: 53px;
+  border-radius: 3.8px;
+  background-color: #f5a626;
+  margin-left: 512px;
+  margin-top: -132px;
+}
+
+.Rectangle-3 #rating {
+ 
+  padding-top: 9px;
+  padding-left: 9px;
+  text-align: center;
   color: white;
+    font-weight: 500;
+    font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.Rectangle-3 p {
+  font-size: 11px;
+  padding-left: 13px;
+  font-weight: 500;
+  color: white;
+  padding-right: 9px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Rectangle-3 p span {
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.Best-college-2018 {
+
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--greyish-brown);
+  background-color: white;
+     width: 135px;
+    height: 34px;
+    border-radius: 16.5px;
+    margin-top: 103px;
+    margin-left: 5px;
+}
+
+.Best-college-2018 p{
+  padding-left: 20px;
+    padding-top: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.Rectangle-2 {
+  width: 93px;
+  height: 34px;
+  border-radius: 16.5px;
+  background-color: #ffffff;
+  margin-left: 148px;
+  margin-top: -33px;
+}
+
+.Rectangle-2 p {
+  padding-left: 15px;
+  padding-top: 8px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.ranking {
+  width: 199px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 393px;
+    margin-top: -21px;
+    font-size: 13.5px;
+}
+
+
+.collegeName {
+  width: 260px;
+  height: 17px;
+  font-family: DINPro;
+  font-size: 17.5px;
+  margin-top: 29px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+}
+
+
+.starRating{
+    margin-top: -15px;
+    margin-left: 261px;
+    font-size: 11px;
+}
+.checked {
+  color: #444444;
+}
+.non{
+color:grey;
+}
+
+.orignalFees{
+  text-decoration: line-through;
+  font-size: 11px;
+  margin-left: 500px;
+  margin-top: -16px;
+}
+
+
+
+.discount-label {
+  padding:8px; 
+  position:relative;
+   float:left;
+   margin-top: -13px;
+    margin-left:550px;
+ width:24px;
+   height:14px;
+ -webkit-border-radius:0 4px 0 4px;
+ -moz-border-radius:0 4px 0 4px;
+ border-radius:0 0 0 0;
+ 
+ }
+ 
+ .discount-label:after { 
+ 
+     right: 100%; 
+     border: solid transparent; content: " "; 
+     height: 0; 
+     width: 0; 
+     position: absolute;
+     border-color: rgba(136, 183, 213, 0);
+      
+     border-width: 8px;
+     top: 50%; 
+     margin-top: -8px;
+    
+    } 
+ 
+     .discount-label:before {
+   content: '';
+   z-index: 2;
+   position: absolute;
+   top: 42%;
+   right: 100%;
+   width: 1px;
+   height: 7px;
+   opacity: .95;
+   background: #ffffff;
+   border-radius: 7px;
+   -webkit-box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+   box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+   width: 5px;
+ 
+   height: 4px;
+ 
+   background-color: #ffffff;
+   margin-top:251px;
+ }
+ 
+
+ 
+ .red{ 
+ background-color:#E80707; 
+ }
+ 
+ .red:after{ 
+ border-right-color: #E80707;
+   
+ }
+ .Near-Vishwavidyalya-Metro-Station {
+  width: 196px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+  margin-left: 6px;
+  margin-top: 11px;
+}
+.-Kms-away-from-bus-stand {
+  width: 157px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+  margin-left: 227px;
+    margin-top: -12px;
+}
+
+.fee {
+  width: 85px;
+  height: 26px;
+  font-family: DINPro;
+  font-size: 28.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: center;
+  color: #dd1c26;
+}
+
+.feeBox{
+  margin-left: 494px;
+    margin-top: -14px;
+}
+.sem {
+  width: 106px;
+  height: 10px;
+  font-family: Myriad Pro;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--greyish-brown);
+  margin-left: 471px;
+    margin-top: 3px;
+}
+.match{
+  width: 358px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadad;
+}
+.Rectangle-4 {
+  width: 347px;
+  height: 35px;
+  background-color: #ccf5e7;
+  border-radius:0px 50px 50px 0px;
+  margin-left: -10px;
+    margin-top: 9px;
+}
+.offer {
+  font-size: 13px;
+    /* margin-top: 1px; */
+   
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 7px;
+    padding-left: 12px;
+}
+.cancel{
+  margin-left: 391px;
+    margin-top: -29px;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+.matchPercent {
+  color: skyblue;
+    font-weight: bold;
+}
+
+.distance {
+  font-weight: bold;
+    color: black;
 }
