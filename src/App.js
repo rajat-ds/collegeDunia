@@ -38,7 +38,7 @@ function App() {
                                   </div>
                 
                             
-                                    <p className="ranking">{colleges[i].ranking}</p>
+                                    <p className="ranking">#{colleges[i].ranking}</p>
                                     
                                     <p className="collegeName">{colleges[i].college_name}</p>
                 
@@ -54,8 +54,8 @@ function App() {
                                     <p className="orignalFees">&#8377;{colleges[i].original_fees}</p>
                                     <div id="content">
                 
-                                    <div className="discount-label red"> <span>20</span> </div>
-                                      
+                                    <div className="discount-label red">   </div>
+                                
                 
                 
                                         </div>
@@ -96,7 +96,7 @@ function App() {
                                   </div>
                 
                             
-                                     <p className="ranking">{colleges[i].ranking}</p>
+                                     <p className="ranking">#{colleges[i].ranking}</p>
                                     
                                     <p className="collegeName">{colleges[i+1].college_name}</p> 
                 
@@ -112,7 +112,7 @@ function App() {
                                     <p className="orignalFees">&#8377;{colleges[i+1].original_fees}</p>
                                     <div id="content">
                 
-                                    <div className="discount-label red"> <span>20</span> </div>
+                                    <div className="discount-label red">  </div>
                                       
                 
                 
